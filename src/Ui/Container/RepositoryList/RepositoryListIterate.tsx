@@ -3,13 +3,8 @@ import React, { FC, useState } from 'react'
 import RepositoryListCard from './RepositoryListCard';
 import Button from '@/Ui/Common/Button';
 import Style from '../../../styles/Components/RepositoryListIterate.module.scss'
-type repoListT = {
-    id:number,
-    name:string,
-    forksCount:number,
-    lastUpdate:string,
-    star:number
-};
+import { repoListT } from '../../../../Constant/Type';
+
 type RepositoryListIterateT = {
     data:repoListT[]
 }

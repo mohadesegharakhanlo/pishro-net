@@ -4,14 +4,8 @@ import RepositoryListCard from './RepositoryListCard'
 import UserInformation from './UserInformation'
 import RepositoryListIterate from './RepositoryListIterate'
 import moment from "moment";
+import { repoListT } from '../../../../Constant/Type'
 
-type repoListT = {
-    id:number,
-    name:string,
-    forksCount:number,
-    lastUpdate:string,
-    star:number
-}
 const RepositoryList = async({params}:any) => {
   const octokit = new Octokit({})
   let repoList:repoListT[] = [] 

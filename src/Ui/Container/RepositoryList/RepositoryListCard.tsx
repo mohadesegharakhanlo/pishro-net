@@ -1,12 +1,7 @@
 import React, { FC } from 'react'
 import style from '../../../styles/Components/RepositoryListCard.module.scss'
-type repoListT = {
-    id:number,
-    name:string,
-    forksCount:number,
-    lastUpdate:string,
-    star:number
-};
+import { repoListT } from '../../../../Constant/Type'
+
 type RepositoryListCardT = {
     repoInfo:repoListT
 }
