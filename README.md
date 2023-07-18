@@ -32,3 +32,11 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+***********************************************************project description
+this project use nextjs 13 and typescript and scss;
+use gihub api for create content and use octokit;
+style folder include all project style file
+ui/container folder include all components that made project 
+ui/common folder include common component that use another component for many times
+you can checkout master branch and run *npm run dev* in terminal and show all project
