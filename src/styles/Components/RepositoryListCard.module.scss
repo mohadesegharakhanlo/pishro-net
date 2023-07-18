@@ -1,0 +1,24 @@
+@import '../index.scss';
+.container{
+    margin-top: 30px;
+    height: 50px;
+    width: 90%;
+    box-shadow: $box-shadow;
+    @include flex(center , space-between);
+    padding:4px;
+    border-radius: 8px;
+    font-size: 15px;
+    color: $main-color;
+    p{
+        width: 22%;
+        overflow: hidden;
+        line-clamp: 1;
+    }
+    &_name{
+
+        font-size: 20px;
+    }
+    &_date{
+        color: $text-second-color;
+    }
+}

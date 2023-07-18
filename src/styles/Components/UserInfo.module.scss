@@ -1,0 +1,26 @@
+@import '../index.scss';
+.UserInfoContainer {
+    @include flex(center , center);
+    gap: 50px;
+    &_profile{
+        width: 200px;
+        height: 200px;
+        border-radius:50%;
+    }
+    &_name{
+        font-size: 20px;
+        color: $main-color;
+        font-weight: 600;
+    }
+    &_github{
+        a{
+            text-decoration: none;
+            color: $text-main-color;
+            font-size: 15px;
+        }
+    }
+    &_repo{
+        font-size: 16px;
+        color: $main-color;
+    }
+}

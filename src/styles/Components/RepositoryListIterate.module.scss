@@ -1,0 +1,6 @@
+@import '../index.scss';
+.buttonContainet{
+    @include flex(center , start);
+    margin-top: 70px;
+    gap: 20px;
+}
